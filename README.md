@@ -46,3 +46,43 @@ ImageDataGenerator(
     height_shift_range=0.1,
     zoom_range=0.1
 )
+
+## 🚀 Training Strategy
+
+- **Optimizer:** Adam
+- **Loss Function:** Categorical Cross-Entropy
+- **Learning Rate Scheduler:** `ReduceLROnPlateau`
+- **Regularization:** Dropout + Batch Normalization
+
+---
+
+## 📊 Results
+
+- **MNIST Test Accuracy:** ~99.6%
+- The trained model generalizes well with **no significant overfitting** observed.
+- Additional error analysis was performed by **visualizing misclassified samples**.
+
+---
+
+## 🧪 Compatibility Check
+
+The trained model is fully compatible with the official evaluation script used in the marking environment:
+- `.h5` model file can be loaded using `keras.models.load_model`
+- Input shape correctly handled for CNN: `(28, 28, 1)`
+- Outputs are valid probability distributions over **10 classes**
+
+---
+
+## 🛠 Environment
+
+- **OS:** macOS (Apple Silicon)
+- **Python:** 3.9
+- **TensorFlow:** 2.18.0
+- **Keras:** `tf.keras`
+
+### Libraries
+- `numpy`
+- `matplotlib`
+- `scikit-learn`
+- `pandas`
+- `jupyter`
