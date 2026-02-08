@@ -45,7 +45,7 @@ ImageDataGenerator(
     width_shift_range=0.1,
     height_shift_range=0.1,
     zoom_range=0.1
-)
+) ```
 
 ## 🚀 Training Strategy
 
