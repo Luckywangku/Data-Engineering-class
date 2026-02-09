@@ -1,4 +1,4 @@
-# Pattern Recognition – Coursework 1 (PR_CW1)  
+# Pattern Recognition – Practice CNN model  
 **MNIST Digit Classification with CNN (Keras / TensorFlow)**
 
 This repository contains my coursework submission and learning notes for the *Pattern Recognition, Neural Networks, and Deep Learning* module.  
